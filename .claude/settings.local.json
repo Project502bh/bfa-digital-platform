@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Command node, npm, npx -ErrorAction SilentlyContinue)",
+      "PowerShell($env:PATH = \"$env:APPDATA\\\\npm;$env:PATH\"; Get-Command pnpm -ErrorAction SilentlyContinue | Select-Object Source)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Read(//c/Users/user/Desktop/BahrainFA/**)",
+      "Read(//c/Users/user/Downloads/**)",
+      "Bash(xargs ls -t)",
+      "Bash(.\\\\node_modules\\\\.bin\\\\next.CMD build *)"
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "common": {
+    "language": "Language",
+    "search": "Search",
+    "menu": "Menu",
+    "close": "Close",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "download": "Download",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "nav": {
+    "bfa": "BFA",
+    "home": "Home",
+    "about": "About BFA",
+    "news": "News",
+    "matches": "Matches",
+    "documents": "Documents",
+    "sponsorship": "Sponsorship",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "badge": "Official Governing Body",
+      "title": "Bahrain Football Association",
+      "subtitle": "Official governing body of football in the Kingdom of Bahrain",
+      "cta": {
+        "matches": "View Matches",
+        "news": "Latest News"
+      }
+    },
+    "stats": {
+      "championships": "Championships",
+      "teams": "Member Teams",
+      "matches": "Annual Matches",
+      "documents": "Official Documents"
+    },
+    "matches": {
+      "title": "Upcoming Matches"
+    },
+    "news": {
+      "title": "Latest News"
+    },
+    "viewAll": "View All",
+    "latestNews": "Latest News",
+    "upcomingMatches": "Upcoming Matches",
+    "liveNow": "Live Now",
+    "liveMatches": "Live & Upcoming Matches",
+    "live": "Live",
+    "noMatches": "No upcoming matches scheduled",
+    "quickAccess": {
+      "title": "Quick Access",
+      "about": "About BFA",
+      "aboutDesc": "Learn about our history and mission",
+      "matches": "Matches",
+      "matchesDesc": "View all upcoming and live matches",
+      "news": "News",
+      "newsDesc": "Read the latest news and updates",
+      "documents": "Documents",
+      "documentsDesc": "Access official regulations and forms"
+    }
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "About the Bahrain Football Association",
+    "subtitle": "Learn about the governing body of football in the Kingdom of Bahrain",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To develop, promote, and govern football throughout the Kingdom of Bahrain, fostering excellence at all levels from grassroots to professional competitions."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To establish Bahrain as a leading football nation in the region, recognized for sporting excellence, fair play, and community engagement."
+    },
+    "history": {
+      "title": "Our History",
+      "description": "Founded in 1951, the Bahrain Football Association has been the governing body for football in Bahrain for over seven decades. We became a member of FIFA in 1966 and the Asian Football Confederation in 1970."
+    },
+    "leadership": {
+      "title": "Our Leadership"
+    },
+    "achievements": {
+      "title": "Our Achievements"
+    },
+    "affiliations": "Affiliations"
+  },
+  "news": {
+    "badge": "Latest News",
+    "title": "News",
+    "subtitle": "Stay up to date with the latest news from the Bahrain Football Association",
+    "latest": "Latest News",
+    "allCategories": "All Categories",
+    "categories": {
+      "all": "All",
+      "national_team": "National Team",
+      "league": "League",
+      "youth": "Youth",
+      "announcements": "Announcements"
+    },
+    "publishedOn": "Published on",
+    "noNews": "No news articles found",
+    "backToNews": "Back to News",
+    "share": "Share",
+    "relatedNews": "Related News"
+  },
+  "matches": {
+    "badge": "Matches",
+    "title": "Matches",
+    "subtitle": "Follow all scheduled, live, and completed matches",
+    "upcoming": "Upcoming Matches",
+    "live": "Live",
+    "liveNow": "Live Now",
+    "completed": "Completed",
+    "scheduled": "Scheduled",
+    "allMatches": "All Matches",
+    "allCompetitions": "All Competitions",
+    "results": "Results",
+    "vs": "vs",
+    "kickoff": "Kick-off",
+    "venue": "Venue",
+    "competition": "Competition",
+    "fullTime": "Full Time",
+    "halfTime": "Half Time",
+    "noMatches": "No matches found",
+    "backToMatches": "Back to Matches",
+    "matchInfo": "Match Information",
+    "date": "Date",
+    "time": "Time",
+    "competitionInfo": "Competition Info",
+    "round": "Round"
+  },
+  "documents": {
+    "badge": "Documents",
+    "title": "Documents",
+    "subtitle": "Access official regulations, guidelines, forms, and reports",
+    "allCategories": "All Documents",
+    "categories": {
+      "all": "All Documents",
+      "regulations": "Regulations",
+      "guidelines": "Guidelines",
+      "forms": "Forms",
+      "reports": "Reports"
+    },
+    "downloadPdf": "Download PDF",
+    "fileSize": "File Size",
+    "lastUpdated": "Last Updated",
+    "noDocuments": "No documents found",
+    "files": "Files"
+  },
+  "sponsorship": {
+    "badge": "Partnership Opportunities",
+    "title": "Sponsor the Bahrain Football Association",
+    "subtitle": "Partner with the official governing body of football in the Kingdom of Bahrain and connect your brand with millions of fans",
+    "why": {
+      "title": "Why Sponsor BFA?",
+      "description": "Align your brand with Bahrain's most-followed sport and reach a passionate, engaged audience across the Kingdom and the wider region.",
+      "stats": {
+        "reach": {
+          "value": "500K+",
+          "label": "Annual Audience",
+          "desc": "Fans reached across all matches, media, and digital platforms each season"
+        },
+        "brand": {
+          "value": "12+",
+          "label": "Competitions",
+          "desc": "National and club competitions offering year-round brand exposure"
+        },
+        "hospitality": {
+          "value": "50+",
+          "label": "Match Days",
+          "desc": "VIP hospitality opportunities to entertain clients at premier football events"
+        },
+        "impact": {
+          "value": "CSR",
+          "label": "Community Impact",
+          "desc": "Demonstrate social responsibility through youth development and grassroots programs"
+        }
+      }
+    },
+    "packages": {
+      "title": "Sponsorship Packages",
+      "subtitle": "Choose the tier that best fits your brand objectives and budget",
+      "popular": "Most Popular",
+      "inquire": "Enquire Now",
+      "customNote": "All prices are indicative. Custom packages are available on request — contact us to discuss your specific needs."
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Ready to partner with BFA? Fill in the enquiry form and our partnership team will get back to you within 2 business days.",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone"
+    },
+    "form": {
+      "title": "Sponsorship Enquiry",
+      "name": "Full Name",
+      "namePlaceholder": "Your full name",
+      "organization": "Organization",
+      "organizationPlaceholder": "Your company or organization",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+973 XXXX XXXX",
+      "package": "Preferred Package",
+      "packagePlaceholder": "Select a package (optional)",
+      "packageCustom": "Custom Package",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your sponsorship goals, target audience, and any specific requirements...",
+      "submit": "Send Enquiry",
+      "sending": "Sending...",
+      "sendAnother": "Send Another Enquiry",
+      "successTitle": "Enquiry Received!",
+      "successMessage": "Thank you for your interest in sponsoring BFA. Our partnerships team will contact you within 2 business days."
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Contact Us",
+    "subtitle": "Get in touch with the Bahrain Football Association",
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+973 XXXX XXXX",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": {
+        "title": "Message Sent!",
+        "message": "Thank you for contacting us. We will get back to you within 2 business days.",
+        "sendAnother": "Send Another Message"
+      },
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": {
+        "title": "Address",
+        "content": "P.O. Box 5464, Manama, Kingdom of Bahrain"
+      },
+      "phone": {
+        "title": "Phone"
+      },
+      "email": {
+        "title": "Email"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "content": "Sunday - Thursday: 8:00 AM - 3:00 PM"
+      }
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "map": {
+      "title": "Our Location"
+    },
+    "addressText": "P.O. Box 5464, Manama, Kingdom of Bahrain",
+    "phoneText": "+973 17 785 777",
+    "emailText": "info@bahrainfootball.org",
+    "hoursText": "Sunday - Thursday: 8:00 AM - 3:00 PM"
+  },
+  "footer": {
+    "rights": "All Rights Reserved",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "affiliates": "Affiliates",
+    "description": "The official governing body of football in the Kingdom of Bahrain, committed to developing the sport at all levels.",
+    "resources": "Resources",
+    "regulations": "Regulations",
+    "forms": "Forms",
+    "annualReports": "Annual Reports",
+    "contactUs": "Contact Us",
+    "address": "P.O. Box 5464, Manama, Kingdom of Bahrain",
+    "copyright": "© 2026 Bahrain Football Association. All Rights Reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
+}
