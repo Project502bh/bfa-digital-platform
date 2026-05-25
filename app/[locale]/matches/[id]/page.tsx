@@ -7,7 +7,7 @@ import { ar, enUS } from "date-fns/locale";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowLeft, ArrowRight, Calendar, MapPin, Clock, Users } from "lucide-react";
+import { ArrowLeft, ArrowRight, Calendar, MapPin, Clock, Users, Ticket } from "lucide-react";
 import { matches } from "@/lib/data/matches";
 
 export async function generateStaticParams() {
@@ -44,6 +44,7 @@ export default async function MatchDetailPage({ params }: { params: Promise<{ lo
 
 function MatchDetailContent({ id }: { id: string }) {
   const t = useTranslations("matches");
+  const tTickets = useTranslations("tickets");
   const locale = useLocale();
   const isRTL = locale === "ar";
   const lang = isRTL ? "ar" : "en";
@@ -150,6 +151,35 @@ function MatchDetailContent({ id }: { id: string }) {
           </div>
         </div>
       </section>
+
+      {/* Buy Tickets Banner */}
+      {match.status === "scheduled" && match.tickets && match.tickets.length > 0 && (
+        <section className="border-b border-border bg-primary/5 py-6">
+          <div className="container">
+            <div className="mx-auto flex max-w-4xl flex-col items-center justify-between gap-4 sm:flex-row">
+              <div className="flex items-center gap-3">
+                <div className="flex size-10 items-center justify-center rounded-full bg-primary/10 text-primary">
+                  <Ticket className="size-5" />
+                </div>
+                <div>
+                  <p className="font-semibold">{tTickets("ticketsAvailable")}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {match.tickets.reduce((s, c) => s + c.available, 0)} {tTickets("available")} ·{" "}
+                    {isRTL ? "من" : "from"} {tTickets("currency")}{" "}
+                    {Math.min(...match.tickets.map((c) => c.price)).toFixed(3)}
+                  </p>
+                </div>
+              </div>
+              <Button size="lg" className="gap-2 shrink-0" asChild>
+                <Link href={`/tickets/${id}`}>
+                  <Ticket className="size-4" />
+                  {tTickets("buyTickets")}
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Match Details */}
       <section className="py-12 md:py-16">

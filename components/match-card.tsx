@@ -4,7 +4,8 @@ import { format } from "date-fns";
 import { ar, enUS } from "date-fns/locale";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, MapPin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Calendar, MapPin, Ticket } from "lucide-react";
 import type { Match } from "@/lib/types";
 
 interface MatchCardProps {
@@ -115,6 +116,24 @@ export function MatchCard({ match, variant = "default" }: MatchCardProps) {
               <span>{venue}</span>
             </div>
           </div>
+
+          {/* Buy Tickets CTA */}
+          {match.status === "scheduled" && match.tickets && match.tickets.length > 0 && (
+            <div className="mt-3 border-t border-border pt-3">
+              <Button
+                variant="default"
+                size="sm"
+                className="w-full gap-1.5"
+                asChild
+                onClick={(e) => e.stopPropagation()}
+              >
+                <Link href={`/tickets/${match.id}`}>
+                  <Ticket className="size-3.5" />
+                  {t("buyTickets")}
+                </Link>
+              </Button>
+            </div>
+          )}
         </CardContent>
       </Card>
     </Link>

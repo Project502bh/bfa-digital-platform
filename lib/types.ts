@@ -23,6 +23,16 @@ export interface NewsArticle {
 
 export type MatchStatus = 'scheduled' | 'live' | 'completed';
 
+export interface TicketCategory {
+  id: string;
+  name: { en: string; ar: string };
+  description: { en: string; ar: string };
+  price: number; // BHD
+  available: number;
+  total: number;
+  color: string; // tailwind bg class for the category badge
+}
+
 export interface Match {
   id: string;
   homeTeam: {
@@ -52,6 +62,7 @@ export interface Match {
   datetime: string;
   status: MatchStatus;
   minute?: number;
+  tickets?: TicketCategory[];
 }
 
 export type DocumentCategory = 'regulations' | 'guidelines' | 'forms' | 'reports';
