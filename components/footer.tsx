@@ -6,7 +6,7 @@ import { Separator } from "@/components/ui/separator";
 const socialLinks = [
   { icon: Facebook, href: "https://facebook.com/baborain.fa", label: "Facebook" },
   { icon: Twitter, href: "https://twitter.com/bahaborain_fa", label: "Twitter" },
-  { icon: Instagram, href: "https://instagram.com/bahaborain_fa", label: "Instagram" },
+  { icon: Instagram, href: "https://instagram.com/bahrainfa", label: "Instagram" },
   { icon: Youtube, href: "https://youtube.com/bahaborainfootball", label: "YouTube" },
 ];
 

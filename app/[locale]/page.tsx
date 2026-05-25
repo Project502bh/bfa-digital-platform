@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { NewsCard } from "@/components/news-card";
 import { MatchWidget } from "@/components/match-widget";
-import { ArrowRight, Trophy, Users, Calendar, FileText } from "lucide-react";
+import { ArrowRight, Trophy, Users, Calendar, FileText, Instagram, Heart, MessageCircle, Camera } from "lucide-react";
 import { news } from "@/lib/data/news";
 import { matches } from "@/lib/data/matches";
 
@@ -130,6 +130,74 @@ function HomeContent() {
             {recentNews.slice(1).map((news) => (
               <NewsCard key={news.id} news={news} />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Instagram Section */}
+      <section className="relative overflow-hidden py-16 md:py-20">
+        {/* Instagram gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#405DE6] via-[#C13584] to-[#FCAF45]" />
+        <div className="absolute inset-0 bg-black/20" />
+        <div className="container relative z-10">
+          <div className="mx-auto grid max-w-5xl items-center gap-10 lg:grid-cols-2">
+            {/* Left: CTA */}
+            <div className="flex flex-col items-center gap-6 text-center text-white lg:items-start lg:text-start">
+              <div className="flex size-16 items-center justify-center rounded-2xl bg-white/20 backdrop-blur-sm">
+                <Instagram className="size-8" />
+              </div>
+              <div>
+                <p className="text-sm font-medium uppercase tracking-widest text-white/70">
+                  {isRTL ? "تابعونا على" : "Follow us on"} Instagram
+                </p>
+                <h2 className="mt-1 text-3xl font-bold md:text-4xl">@bahrainfa</h2>
+                <p className="mt-3 text-base text-white/80">
+                  {isRTL
+                    ? "ابق على اطلاع بأحدث أخبار المباريات والصور والتحديثات الحصرية"
+                    : "Stay updated with the latest match moments, behind-the-scenes photos, and exclusive updates"}
+                </p>
+              </div>
+              <a
+                href="https://instagram.com/bahrainfa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#C13584] shadow-lg transition-transform hover:scale-105"
+              >
+                <Instagram className="size-4" />
+                {isRTL ? "تابع @bahrainfa" : "Follow @bahrainfa"}
+              </a>
+            </div>
+
+            {/* Right: Mock post grid */}
+            <div className="grid grid-cols-3 gap-2">
+              {[
+                { icon: Trophy,   label: isRTL ? "أبرز المباريات" : "Match Highlights", bg: "from-red-500 to-orange-500" },
+                { icon: Camera,   label: isRTL ? "خلف الكواليس"   : "Behind the Scenes", bg: "from-purple-500 to-pink-500" },
+                { icon: Users,    label: isRTL ? "صورة الفريق"    : "Team Photo",        bg: "from-blue-500 to-cyan-500" },
+                { icon: Calendar, label: isRTL ? "يوم المباراة"   : "Match Day",         bg: "from-green-500 to-teal-500" },
+                { icon: Heart,    label: isRTL ? "أكاديمية الشباب" : "Youth Academy",     bg: "from-yellow-500 to-orange-400" },
+                { icon: MessageCircle, label: isRTL ? "إعلان رسمي" : "Announcement",     bg: "from-indigo-500 to-purple-500" },
+              ].map((post, i) => (
+                <a
+                  key={i}
+                  href="https://instagram.com/bahrainfa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative aspect-square overflow-hidden rounded-lg"
+                >
+                  <div className={`absolute inset-0 bg-gradient-to-br ${post.bg} opacity-90`} />
+                  <div className="absolute inset-0 flex flex-col items-center justify-center gap-1 p-2 text-white">
+                    <post.icon className="size-6 drop-shadow" />
+                    <span className="text-center text-[10px] font-medium leading-tight drop-shadow">
+                      {post.label}
+                    </span>
+                  </div>
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 transition-opacity group-hover:opacity-100">
+                    <Instagram className="size-6 text-white" />
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </section>
