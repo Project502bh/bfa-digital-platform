@@ -18,9 +18,10 @@
     "about": "About BFA",
     "news": "News",
     "matches": "Matches",
+    "fantasy": "Fantasy",
+    "membership": "Membership",
     "documents": "Documents",
     "sponsorship": "Sponsorship",
-    "membership": "Membership",
     "contact": "Contact"
   },
   "home": {
@@ -369,6 +370,144 @@
     "ticketsAvailable": "Tickets Available",
     "matchday": "Match Day",
     "disclaimer": "This booking system is for demonstration purposes. Payment processing will be integrated soon."
+  },
+  "fantasy": {
+    "badge": "BFL Fantasy",
+    "title": "Bahrain Fantasy League",
+    "subtitle": "Build your dream squad from the Bahraini Premier League, earn points, and compete with fans across Bahrain",
+    "cta": {
+      "buildSquad": "Build My Squad",
+      "viewLeaderboard": "View Leaderboard"
+    },
+    "howToPlay": {
+      "badge": "How It Works",
+      "title": "How to Play"
+    },
+    "thisGW": {
+      "badge": "Current Gameweek",
+      "title": "This Gameweek"
+    },
+    "topManagers": {
+      "badge": "Leaderboard",
+      "title": "Top Managers"
+    },
+    "chips": {
+      "badge": "Power-Ups",
+      "title": "Chips & Boosts"
+    },
+    "positions": {
+      "goalkeeper": "Goalkeeper",
+      "defender": "Defender",
+      "midfielder": "Midfielder",
+      "forward": "Forward",
+      "gkp": "GKP",
+      "def": "DEF",
+      "mid": "MID",
+      "fwd": "FWD",
+      "bench": "Bench"
+    },
+    "squad": {
+      "title": "Squad Selection",
+      "budget": "Budget",
+      "spent": "Spent",
+      "remaining": "Remaining",
+      "save": "Save Squad",
+      "saved": "Saved!",
+      "complete": "Complete your squad to save",
+      "formation": "Formation Requirements",
+      "chips": "Chips",
+      "captain": "Set as Captain",
+      "viceCaptain": "Set as Vice-Captain",
+      "remove": "Remove Player"
+    },
+    "points": {
+      "title": "My Points",
+      "gwPoints": "GW Points",
+      "transferCost": "Transfer Cost",
+      "netPoints": "Net Points",
+      "noSquad": "No Squad Selected Yet",
+      "noSquadDesc": "Build your squad first to track your points",
+      "buildSquad": "Build My Squad",
+      "benchNote": "Auto-substitutions are calculated at end of gameweek",
+      "currentGW": "Current GW",
+      "finished": "Finished",
+      "upcoming": "Upcoming"
+    },
+    "leagues": {
+      "title": "Leagues",
+      "global": "Global",
+      "myLeagues": "My Leagues",
+      "createJoin": "Create/Join",
+      "rank": "Rank",
+      "manager": "Manager",
+      "team": "Team",
+      "gwPts": "GW",
+      "total": "Total",
+      "loadMore": "Load More",
+      "myRank": "My Rank",
+      "myTotal": "My Total",
+      "members": "members",
+      "code": "Code",
+      "createLeague": "Create a League",
+      "leagueName": "League Name",
+      "leagueNamePlaceholder": "e.g. Friends League",
+      "createBtn": "Create League",
+      "created": "League Created!",
+      "shareCode": "Share this code with friends to join",
+      "joinLeague": "Join a League",
+      "leagueCode": "League Code",
+      "joinBtn": "Join League",
+      "joinSuccess": "Successfully Joined!",
+      "joinAnother": "Join Another"
+    },
+    "players": {
+      "title": "Player Database",
+      "subtitle": "players from the Bahraini Premier League",
+      "search": "Search...",
+      "club": "Club",
+      "allClubs": "All Clubs",
+      "sortBy": "Sort by",
+      "totalPoints": "Total Points",
+      "price": "Price",
+      "goals": "Goals",
+      "assists": "Assists",
+      "ppg": "PPG",
+      "pos": "Pos",
+      "pts": "Pts",
+      "sel": "Sel%",
+      "cs": "CS",
+      "minutes": "Minutes",
+      "gwPoints": "Points per GW",
+      "noPlayers": "No players found",
+      "showing": "Showing",
+      "players": "players",
+      "watchlist": "Watchlist"
+    },
+    "chips": {
+      "badge": "Power-Ups",
+      "title": "Chips & Boosts",
+      "wildcard": "Wildcard",
+      "wildcardDesc": "Make unlimited free transfers for one gameweek",
+      "freehit": "Free Hit",
+      "freehitDesc": "Temporary squad for one gameweek, reverts after",
+      "bboost": "Bench Boost",
+      "bboostDesc": "Your bench players' points count this gameweek",
+      "triplecaptain": "Triple Captain",
+      "triplecaptainDesc": "Your captain earns triple points this gameweek",
+      "available": "Available",
+      "used": "Used",
+      "active": "Active",
+      "oneUse": "One use only"
+    },
+    "validation": {
+      "needGKP": "Need 2 goalkeepers",
+      "needDEF": "Need 5 defenders",
+      "needMID": "Need 5 midfielders",
+      "needFWD": "Need 3 forwards",
+      "clubLimit": "Too many players from same club",
+      "noCaptain": "No captain selected",
+      "budgetExceeded": "Budget exceeded"
+    }
   },
   "footer": {
     "rights": "All Rights Reserved",
