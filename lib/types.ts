@@ -83,6 +83,26 @@ export interface Document {
   updatedAt: string;
 }
 
+export type MembershipType = 'regular' | 'premium';
+
+export interface Club {
+  id: string;
+  name: { en: string; ar: string };
+  logo?: string;
+}
+
+export interface MembershipBenefit {
+  en: string;
+  ar: string;
+}
+
+export interface MembershipPlan {
+  id: MembershipType;
+  price: number; // BHD per year
+  highlighted: boolean;
+  benefits: MembershipBenefit[];
+}
+
 export interface Leader {
   id: string;
   name: {

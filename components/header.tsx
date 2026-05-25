@@ -13,6 +13,7 @@ const navItems = [
   { href: "/about", labelKey: "about" },
   { href: "/news", labelKey: "news" },
   { href: "/matches", labelKey: "matches" },
+  { href: "/membership", labelKey: "membership" },
   { href: "/documents", labelKey: "documents" },
   { href: "/sponsorship", labelKey: "sponsorship" },
   { href: "/contact", labelKey: "contact" },
